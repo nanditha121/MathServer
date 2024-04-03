@@ -99,7 +99,7 @@ h1 {
 views.py
 
 from django.shortcuts import render
-def squarearea(request):
+def surfacearea(request):
     context = {}
     context['area'] = "0"
     context['r'] = "0"
@@ -127,8 +127,8 @@ from django.urls import path
 from mathapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('squarearea/',views.squarearea,name="squarearea"),
-    path('',views.squarearea,name="squarearea")
+    path('surfacearea/',views.surfacearea,name="surfacearea"),
+    path('',views.surfacearea,name="surfcaearea")
 ]
 ```
 

@@ -1,5 +1,5 @@
 from django.shortcuts import render
-def squarearea(request):
+def surfacearea(request):
     context = {}
     context['area'] = "0"
     context['r'] = "0"
